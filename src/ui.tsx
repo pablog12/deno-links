@@ -12,7 +12,7 @@ interface PageProps {
 const BASE_URL =
   Deno.env.get("DENO_ENV") === "dev"
     ? "http://localhost:8000"
-    : "https://denolink-zaxxk0xy4xrt.deno.dev";
+    : "https://denolink.deno.dev";
 
 export function Layout({ children }: { children: ComponentChildren }) {
   return (
